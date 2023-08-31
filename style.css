@@ -60,6 +60,7 @@ body{
     height: 55px;
 }
 .container .sidebar .my_profile button{
+    background-color: white;
     display: flex;
     align-items: center;
     width: 90%;
@@ -67,6 +68,9 @@ body{
     padding: 10px;
     height: 55px;
     border: none;
+}
+.container .sidebar .my_profile button:hover{
+    background-color: #E7E7E8;
 }
 .container .sidebar .my_profile button img{
     height: 40px;
@@ -76,6 +80,9 @@ body{
 
 .container .sidebar .my_profile button p{
     padding: 10px;
+}
+.container .sidebar .my_profile button i{
+    font-size: 1rem;
 }
 .container .sidebar .my_profile button p span{
     font-weight: bold;
